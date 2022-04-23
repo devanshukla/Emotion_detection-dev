@@ -4,12 +4,11 @@
 
 This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. This dataset consists of 35887 grayscale which are inserted as a dataset, 48x48 sized face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
-## Dependencies
-
+## Software Requirements
 * [Python 3](https://www.python.org/downloads/), [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/)
 * To install the required packages, run `pip install -r requirements.txt`.
 
-## Basic Usage
+## Core Library
 
 The repository is currently compatible with `tensorflow-2.0` and makes use of the Keras API using the `tensorflow.keras` library.
 
@@ -43,7 +42,7 @@ python emotions.py --mode display
 
 * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 * 
-![Accuracy plot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Falre4436%2FEmotion-recognition&psig=AOvVaw2j1Xf4exgsFB4k_mEV-F87&ust=1650791003935000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDq1IvqqfcCFQAAAAAdAAAAABAM)
+![Accuracy plot](https://github.com/devanshukla/Emotion_detection-dev/blob/main/emot.png)
 
 * In case you are looking to experiment with new datasets, you may have to deal with data in the csv format. I have provided the code I wrote for data preprocessing in the `dataset_prepare.py` file which can be used for reference.
 
@@ -60,11 +59,3 @@ python emotions.py --mode display
 ## Example Output
 
 ![Mutiface]( https://github.com/devanshukla/Emotion_detection-dev/blob/main/IMG-20220111-WA0014.jpg)
-
-## References
-
-* "Challenges in Representation Learning: A report on three machine learning contests." I Goodfellow, D Erhan, PL Carrier, A Courville, M Mirza, B
-   Hamner, W Cukierski, Y Tang, DH Lee, Y Zhou, C Ramaiah, F Feng, R Li,  
-   X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu,
-   M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and
-   Y. Bengio. arXiv 2013.
