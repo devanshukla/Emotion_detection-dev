@@ -42,6 +42,8 @@ python emotions.py --mode display
   * `model.h5` (file)
 
 * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
+* 
+![Accuracy plot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Falre4436%2FEmotion-recognition&psig=AOvVaw2j1Xf4exgsFB4k_mEV-F87&ust=1650791003935000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDq1IvqqfcCFQAAAAAdAAAAABAM)
 
 * In case you are looking to experiment with new datasets, you may have to deal with data in the csv format. I have provided the code I wrote for data preprocessing in the `dataset_prepare.py` file which can be used for reference.
 
@@ -57,7 +59,7 @@ python emotions.py --mode display
 
 ## Example Output
 
-![Mutiface](imgs/multiface.png)
+![Mutiface]( https://github.com/devanshukla/Emotion_detection-dev/blob/main/IMG-20220111-WA0014.jpg)
 
 ## References
 
